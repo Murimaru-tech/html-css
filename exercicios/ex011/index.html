@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajuste de Imagem/Responsividade</title>
+</head>
+<body>
+    <h1>Tony Tony Chopper</h1>
+    <p>Tony Tony Chopper é uma rena. Ele é o médico da tripulação dos Piratas do Chapéu de Palha. Chopper é uma rena que, após comer a Hito Hito no Mi, adquiriu a habilidade de se transformar e raciocinar como os humanos. Ele é o sexto membro e um dos poucos membros da tripulação que nasceu na Grand Line, numa ilha chamada Drum. Por ter sido confundido como mascote, a recompensa atual de sua captura é de apenas 1.000 berrys .Mesmo sendo considerado "Mascote" pela marinha, ele foi nomeado um dos comandantes do Luffy, sendo assim seguindo a lógica da sua recompensa o 9° Comandante.</p>
+    
+    <picture> <!--Tag para inserção de imagens responsivas. Responsividade é importante para que multiplas plataformas possam acessar seu site. Cada browser reconhece um grupo de formatos entre .jpeg, .png, .webm -->
+        <source media="(max-width: 500px)" srcset="img/chopper-p.png" type="image/png">
+        <source media="(max-width: 700px)" srcset="img/chopper-m.png" type="image/png">
+        <source media="(max-width: 1200px)" srcset="img/chopper-g.png" type="image/png">
+        <img src="img/chopper.webp" alt="Chopper">
+    </picture>
+
+    <h1>Chopper cantando com Luffy e Law</h1>
+    <p>Vamos escutar</p>
+    <audio preload="metadata" autoplay controls> <!-- Tag responsável por inserir aúdio de maneira responsiva, cada browser reconhece um grupo de formatos entre .mp3, .wav, .ogg -->
+        <source src="midia/sound-1.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navagador não conseguiu carregar o audio.</p>
+    </audio>
+    <h1>Capitão Chopper em ação</h1>
+    <video width="900px" controls poster="img/chopper-thumb.jpg"> <!--Tag responsável por inserir vídeos de maneira responsiva, cada browser reconhece um grupo de formatos entre .mp4, .m4v, .webm, .ogv-->
+        <source src="video/capitan-chopper.mp4" type="video/mp4">
+    </video> <!--Desta forma o vídeo está hospedado no servidor, isso gera custos e não é o indicado para o cliente pois gera custos adicionais-->
+    <h1>Veja mais momentos como esse</h1>
+    <iframe width="900" height="506" src="https://www.youtube.com/embed/h1ausNVWBB8?si=k85vMcFcLnpD6g1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <!--Dessa forma o vídeo está hospedado no servidor do YouTube, dessa forma isso gera maior velocidade para o site e não gera custos de hospedagem-->
+</body>
+</html>

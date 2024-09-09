@@ -1,0 +1,41 @@
+@charset "UTF-8"
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*
+Tudo que em HTML é id    = Em CSS é # ;
+Tudo que em HTML é class = em CSS É . ; 
+*/
+body {
+    background-image: linear-gradient(#93A3B1 , #d7dde2);
+    background-attachment: fixed;
+    
+}
+h1#principal{
+    text-align: center;
+    background-color: #565e64;
+    color: #93A3B1;
+}
+
+h1 {
+    color: #323333;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2 {
+    color: #323333;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+p{
+    color: #323333;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: justify;
+
+}

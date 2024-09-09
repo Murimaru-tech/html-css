@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+
+        div{
+            height: 100px;
+            background-color: rgb(240, 81, 81);
+            text-align: center;
+            font-family: "Bungee Tint", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 2em;
+        }
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            font-size: 0.5em;
+        }
+        div:hover{
+            background-color: rgb(240, 81, 81);
+            height: 300px;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        MENU
+        <p>
+            <a href="https://x.com/Ecologica_Verde?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">• Jogos<br></a>
+            • Videos<br>
+            • Musicas<br>
+            • Blogs<br>
+        </p>
+    </div>
+</body>
+</html>
