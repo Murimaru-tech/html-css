@@ -1,0 +1,118 @@
+@charset 'UTF-8';
+
+:root{
+    --font1: Verdana, Geneva, Tahoma, sans-serif ;
+    --font2: 'Passion One', cursive; 
+}
+
+* {
+    margin: 0px;
+}
+body {
+    min-width: 100vh;
+    background-color: white;
+    font-family: var(--font1);
+}
+header {
+    background-color: black;
+    padding: 57px 0px ;
+}
+
+h1 {
+    font-family: var(--font1);
+    font-size: 10vw;
+    color: white;
+    text-align: center;
+}
+
+header p {
+    font-family: var(--font1);
+    font-size: 2vw;
+    color: white;
+    text-align: center;
+}
+
+header > p > a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--font1);
+}
+
+
+section.normal {
+    height: 50vh;
+    width: 100vh;
+
+}
+section.normal p {
+    font-family: var(--font2);
+    line-height: 2em;
+    padding: 2em 0em;
+    margin: 0px;
+    width: auto;
+    height: 100vh;
+    color:black;
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+section.imagem#img01{
+    background: black url(imagens/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
+    padding: 2em;
+    position: relative;
+    display: block;
+    width: 100vw;
+    height: 50vh;
+}
+section.imagem#img01 p {
+    background-color: rgba(0, 0, 0, 0.308);
+    font-family: var(--font2);
+    line-height: 2em;
+    padding: 2em 0em;
+    margin: 0px;
+    width: auto;
+    color: white;
+    font-size: 2.5vw;
+    font-weight: bold;
+    position: absolute
+    
+}
+
+section.imagem#img02{
+    background: black url(imagens/background002.jpg) right center no-repeat fixed;
+    background-size: cover;
+    position: relative;
+    padding: 2em;
+    display: block;
+    width: 100vw;
+    height: 50vh;
+}
+
+section.imagem#img02 p {
+    background-color: rgba(0, 0, 0, 0.308);
+    font-family: var(--font2);
+    line-height: 2em;
+    padding: 2em 0em;
+    margin: 0px;
+    width: auto;
+    color: white;
+    font-size: 2.5vw;
+    font-weight: bold;
+    position: absolute;
+}
+
+footer {
+    background-color: black;
+    margin: auto;
+    padding: 1em 0em;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
